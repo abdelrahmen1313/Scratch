@@ -13,27 +13,17 @@ class UserRoutes {
             },
             // Add more routes here as needed
             // {
-            //     path: `${this.basePath}/profile`,
+            //     path: `/profile`, -> baseUrl/profile
             //     method: "get",
-            //     handler: this.getProfile,
+            //     handler: [user.middleware.handler],
             // },
-            // {
-            //     path: `${this.basePath}/register`,
-            //     method: "post",
-            //     handler: this.register,
-            // },
+     
         ];
     }
 
 
-    // Add more handler methods here
-    // private getProfile = async (req: Request, res: Response): Promise<void> => {
-    //     // implementation
-    // };
-
-    // private register = async (req: Request, res: Response): Promise<void> => {
-    //     // implementation
-    // };
+  
+   
 }
 
 export default UserRoutes;
